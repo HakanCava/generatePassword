@@ -1,0 +1,66 @@
+
+form {
+  background-color: rgba(165, 122, 206, 0.438);
+  padding: 5rem;
+  font-size: 2rem;
+  width: 45%;
+  margin: 2rem auto;
+  border-radius: 15px;
+  box-shadow: 8px 8px 5px 5px rgba(165, 122, 206, 0.35);
+}
+
+button {
+  font-size: 1.5rem;
+  border: none;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+
+p {
+  color: orangered;
+}
+
+.cont{
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+}
+
+#password {
+  /* background-color: aliceblue; */
+  color: mediumblue;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  display: none;
+}
+
+/* .btn {
+
+} */
+
+
+.icon {
+  color: black;
+  display: none;
+  position: absolute;
+  right: 2px;
+  padding: 0.25rem;
+  margin: .25rem;
+ 
+  background-color:aliceblue;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.icon.Shower {
+    display: inline-block;
+  }
+  
